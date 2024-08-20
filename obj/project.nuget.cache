@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "stPc3MMrlaw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yeabiseraT\\Desktop\\Projects\\LinqExtensionMethods\\LinqExtensionMethods.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yeabiseraT\\.nuget\\packages\\dumpify\\0.6.6\\dumpify.0.6.6.nupkg.sha512",
+    "C:\\Users\\yeabiseraT\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}

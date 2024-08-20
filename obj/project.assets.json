@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Dumpify/0.6.6": {
+        "type": "package",
+        "dependencies": {
+          "Spectre.Console": "0.48.0"
+        },
+        "compile": {
+          "lib/net8.0/Dumpify.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Dumpify.dll": {}
+        }
+      },
+      "Spectre.Console/0.49.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dumpify/0.6.6": {
+      "sha512": "KDPmd681ltvJKRWRfbc7WLzOztYV8BXBSwoDaZVLlaq9Y45X3sZeh8FDF2MyfTErcKVp4fPEWyDiKyizInCptg==",
+      "type": "package",
+      "path": "dumpify/0.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dumpify-logo-styled.png",
+        "dumpify.0.6.6.nupkg.sha512",
+        "dumpify.nuspec",
+        "lib/net8.0/Dumpify.dll",
+        "lib/netstandard2.0/Dumpify.dll",
+        "lib/netstandard2.1/Dumpify.dll",
+        "nuget.md"
+      ]
+    },
+    "Spectre.Console/0.49.1": {
+      "sha512": "USV+pdu49OJ3nCjxNuw1K9Zw/c1HCBbwbjXZp0EOn6wM99tFdAtN34KEBZUMyRuJuXlUMDqhd8Yq9obW2MslYA==",
+      "type": "package",
+      "path": "spectre.console/0.49.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.49.1.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Dumpify >= 0.6.6",
+      "Spectre.Console >= 0.49.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yeabiseraT\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\yeabiseraT\\Desktop\\Projects\\LinqExtensionMethods\\LinqExtensionMethods.csproj",
+      "projectName": "LinqExtensionMethods",
+      "projectPath": "C:\\Users\\yeabiseraT\\Desktop\\Projects\\LinqExtensionMethods\\LinqExtensionMethods.csproj",
+      "packagesPath": "C:\\Users\\yeabiseraT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yeabiseraT\\Desktop\\Projects\\LinqExtensionMethods\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yeabiseraT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Dumpify": {
+            "target": "Package",
+            "version": "[0.6.6, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.49.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
